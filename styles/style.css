@@ -1,0 +1,56 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@500;700&display=swap');
+
+
+/* common */
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Head-line section */
+.head-line {
+    background-color: #161616;
+    width: 1321px;
+    height: 528px;
+    display: flex;
+    border-radius: 30px;
+}
+
+.title {
+    margin-left: 70px;
+    color: #ffffff;
+}
+
+.heading {
+
+    font-size: 70px;
+}
+
+.quotes {
+    font-size: 16px;
+
+}
+
+.button {
+    width: 187px;
+    height: 56px;
+    background-color: #DD0000;
+    top: 30px;
+    color: #ffffff;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+}
+
+.ozil img {
+    width: 581px;
+    height: 527px;
+}
