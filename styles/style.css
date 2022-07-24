@@ -7,16 +7,20 @@
 body {
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     margin-top: 40px;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 100px;
 }
 
-/* Head-line section */
-.head-line {
+/* blog section */
+.blog {
     background-color: #161616;
     width: 1321px;
     height: 528px;
@@ -53,4 +57,84 @@ body {
 .ozil img {
     width: 581px;
     height: 527px;
+}
+
+/* Second Section */
+.another-section {
+    display: flex;
+    margin-top: 138px;
+    margin-bottom: 130px;
+}
+
+.menu {
+    background-color: #161616;
+    height: 312px;
+    width: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 10px;
+
+}
+
+.menu .box {
+    display: grid;
+    width: 90%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 20px;
+
+}
+
+.link {
+    height: 64px;
+    color: #161616;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 5px;
+}
+
+.link a {
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #161616;
+}
+
+#home {
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
+/* Transfer */
+.transfers-news {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.transfers {
+    margin-bottom: 30px;
+}
+
+.transfers .transfer img {
+    width: 312px;
+    height: 175px;
+    border-radius: 5px;
+}
+
+.transfer-button {
+    margin-top: 10px;
+}
+
+.transfer-info {
+    display: flex;
+}
+
+.transfer-info img {
+    margin-left: 20px;
 }
